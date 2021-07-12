@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="9" total="25" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-14T16:43:48 EDT" name="Suite" finished-at="2021-06-14T16:43:58 EDT" duration-ms="9945">
+    <groups>
+    </groups>
+    <test started-at="2021-06-14T16:43:48 EDT" name="Test" finished-at="2021-06-14T16:43:58 EDT" duration-ms="9945">
+      <class name="FacebookTestNG">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:FacebookTestNG@5be6e01c]" started-at="2021-06-14T16:43:48 EDT" name="OpenBrowser" finished-at="2021-06-14T16:43:51 EDT" duration-ms="2481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="ClickCreatAccout()[pri:0, instance:FacebookTestNG@5be6e01c]" started-at="2021-06-14T16:43:54 EDT" name="ClickCreatAccout" description="Clicking the Create account" finished-at="2021-06-14T16:43:54 EDT" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickCreatAccout -->
+        <test-method signature="SetFirstName()[pri:1, instance:FacebookTestNG@5be6e01c]" started-at="2021-06-14T16:43:54 EDT" name="SetFirstName" description="user populating the first Name field" finished-at="2021-06-14T16:43:54 EDT" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetFirstName -->
+        <test-method signature="SetLastName()[pri:2, instance:FacebookTestNG@5be6e01c]" started-at="2021-06-14T16:43:54 EDT" name="SetLastName" description="user populating the last Name field" finished-at="2021-06-14T16:43:54 EDT" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetLastName -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:FacebookTestNG@5be6e01c]" started-at="2021-06-14T16:43:54 EDT" name="CloseBrowser" finished-at="2021-06-14T16:43:58 EDT" duration-ms="4145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- FacebookTestNG -->
+      <class name="homeWorkTestNG">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:homeWorkTestNG@1184ab05]" started-at="2021-06-14T16:43:51 EDT" name="OpenBrowser" finished-at="2021-06-14T16:43:53 EDT" duration-ms="1899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="SetHomeValue()[pri:0, instance:homeWorkTestNG@1184ab05]" started-at="2021-06-14T16:43:53 EDT" name="SetHomeValue" description="User populating Home Value " finished-at="2021-06-14T16:43:53 EDT" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetHomeValue -->
+        <test-method signature="SetDownPayment()[pri:1, instance:homeWorkTestNG@1184ab05]" started-at="2021-06-14T16:43:53 EDT" name="SetDownPayment" description="User populating down payment" finished-at="2021-06-14T16:43:53 EDT" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetDownPayment -->
+        <test-method signature="SetLoanAmount()[pri:2, instance:homeWorkTestNG@1184ab05]" started-at="2021-06-14T16:43:53 EDT" name="SetLoanAmount" description="User checked $ Amount" finished-at="2021-06-14T16:43:53 EDT" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetLoanAmount -->
+        <test-method signature="SetInterestRate()[pri:3, instance:homeWorkTestNG@1184ab05]" started-at="2021-06-14T16:43:53 EDT" name="SetInterestRate" description="User populating interest Rate" finished-at="2021-06-14T16:43:53 EDT" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetInterestRate -->
+        <test-method signature="SetLoanTerm()[pri:4, instance:homeWorkTestNG@1184ab05]" started-at="2021-06-14T16:43:53 EDT" name="SetLoanTerm" description="User populating loan Term" finished-at="2021-06-14T16:43:53 EDT" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetLoanTerm -->
+        <test-method signature="SetStartDate()[pri:5, instance:homeWorkTestNG@1184ab05]" started-at="2021-06-14T16:43:53 EDT" name="SetStartDate" description="User selecting Start Date" finished-at="2021-06-14T16:43:53 EDT" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetStartDate -->
+        <test-method signature="SetPropertyTax()[pri:6, instance:homeWorkTestNG@1184ab05]" started-at="2021-06-14T16:43:53 EDT" name="SetPropertyTax" description="User populating property tax" finished-at="2021-06-14T16:43:53 EDT" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetPropertyTax -->
+        <test-method signature="SetPMI()[pri:7, instance:homeWorkTestNG@1184ab05]" started-at="2021-06-14T16:43:53 EDT" name="SetPMI" description="User populating PMI" finished-at="2021-06-14T16:43:53 EDT" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetPMI -->
+        <test-method signature="SetHomeIns()[pri:8, instance:homeWorkTestNG@1184ab05]" started-at="2021-06-14T16:43:53 EDT" name="SetHomeIns" description="User populating Home Insurance" finished-at="2021-06-14T16:43:53 EDT" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetHomeIns -->
+        <test-method signature="SetMonthlyHOA()[pri:9, instance:homeWorkTestNG@1184ab05]" started-at="2021-06-14T16:43:53 EDT" name="SetMonthlyHOA" description="User populating Monthly HOA" finished-at="2021-06-14T16:43:53 EDT" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetMonthlyHOA -->
+        <test-method signature="SetLoanType()[pri:10, instance:homeWorkTestNG@1184ab05]" started-at="2021-06-14T16:43:53 EDT" name="SetLoanType" description="User Selecting Loan Type" finished-at="2021-06-14T16:43:53 EDT" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetLoanType -->
+        <test-method signature="SetBuyOrRefi()[pri:11, instance:homeWorkTestNG@1184ab05]" started-at="2021-06-14T16:43:53 EDT" name="SetBuyOrRefi" description="User Selecting Buy or Refi" finished-at="2021-06-14T16:43:54 EDT" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetBuyOrRefi -->
+        <test-method signature="ClickCalculate()[pri:12, instance:homeWorkTestNG@1184ab05]" started-at="2021-06-14T16:43:54 EDT" name="ClickCalculate" description="Clicking the Calulate Button" finished-at="2021-06-14T16:43:54 EDT" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickCalculate -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:homeWorkTestNG@1184ab05]" started-at="2021-06-14T16:43:58 EDT" name="CloseBrowser" finished-at="2021-06-14T16:43:58 EDT" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- homeWorkTestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

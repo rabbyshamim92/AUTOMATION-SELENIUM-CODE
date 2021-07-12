@@ -1,0 +1,159 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>16/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jun 14 16:43:48 EDT 2021</td>
+</tr>
+<tr><td>Total time:</td><td>9 seconds (9945 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='homeWorkTestNG.ClickCalculate()'><b>ClickCalculate</b><br>Test class: homeWorkTestNG<br>Test method: Clicking the Calulate Button</td>
+<td></td>
+<td>0</td>
+<td>homeWorkTestNG@1184ab05</td></tr>
+<tr>
+<td title='homeWorkTestNG.SetLoanTerm()'><b>SetLoanTerm</b><br>Test class: homeWorkTestNG<br>Test method: User populating loan Term</td>
+<td></td>
+<td>0</td>
+<td>homeWorkTestNG@1184ab05</td></tr>
+<tr>
+<td title='homeWorkTestNG.SetInterestRate()'><b>SetInterestRate</b><br>Test class: homeWorkTestNG<br>Test method: User populating interest Rate</td>
+<td></td>
+<td>0</td>
+<td>homeWorkTestNG@1184ab05</td></tr>
+<tr>
+<td title='homeWorkTestNG.SetPMI()'><b>SetPMI</b><br>Test class: homeWorkTestNG<br>Test method: User populating PMI</td>
+<td></td>
+<td>0</td>
+<td>homeWorkTestNG@1184ab05</td></tr>
+<tr>
+<td title='homeWorkTestNG.SetMonthlyHOA()'><b>SetMonthlyHOA</b><br>Test class: homeWorkTestNG<br>Test method: User populating Monthly HOA</td>
+<td></td>
+<td>0</td>
+<td>homeWorkTestNG@1184ab05</td></tr>
+<tr>
+<td title='homeWorkTestNG.SetLoanAmount()'><b>SetLoanAmount</b><br>Test class: homeWorkTestNG<br>Test method: User checked $ Amount</td>
+<td></td>
+<td>0</td>
+<td>homeWorkTestNG@1184ab05</td></tr>
+<tr>
+<td title='homeWorkTestNG.SetHomeValue()'><b>SetHomeValue</b><br>Test class: homeWorkTestNG<br>Test method: User populating Home Value </td>
+<td></td>
+<td>0</td>
+<td>homeWorkTestNG@1184ab05</td></tr>
+<tr>
+<td title='homeWorkTestNG.SetHomeIns()'><b>SetHomeIns</b><br>Test class: homeWorkTestNG<br>Test method: User populating Home Insurance</td>
+<td></td>
+<td>0</td>
+<td>homeWorkTestNG@1184ab05</td></tr>
+<tr>
+<td title='FacebookTestNG.ClickCreatAccout()'><b>ClickCreatAccout</b><br>Test class: FacebookTestNG<br>Test method: Clicking the Create account</td>
+<td></td>
+<td>0</td>
+<td>FacebookTestNG@5be6e01c</td></tr>
+<tr>
+<td title='homeWorkTestNG.SetPropertyTax()'><b>SetPropertyTax</b><br>Test class: homeWorkTestNG<br>Test method: User populating property tax</td>
+<td></td>
+<td>0</td>
+<td>homeWorkTestNG@1184ab05</td></tr>
+<tr>
+<td title='FacebookTestNG.SetFirstName()'><b>SetFirstName</b><br>Test class: FacebookTestNG<br>Test method: user populating the first Name field</td>
+<td></td>
+<td>0</td>
+<td>FacebookTestNG@5be6e01c</td></tr>
+<tr>
+<td title='homeWorkTestNG.SetStartDate()'><b>SetStartDate</b><br>Test class: homeWorkTestNG<br>Test method: User selecting Start Date</td>
+<td></td>
+<td>0</td>
+<td>homeWorkTestNG@1184ab05</td></tr>
+<tr>
+<td title='FacebookTestNG.SetLastName()'><b>SetLastName</b><br>Test class: FacebookTestNG<br>Test method: user populating the last Name field</td>
+<td></td>
+<td>0</td>
+<td>FacebookTestNG@5be6e01c</td></tr>
+<tr>
+<td title='homeWorkTestNG.SetBuyOrRefi()'><b>SetBuyOrRefi</b><br>Test class: homeWorkTestNG<br>Test method: User Selecting Buy or Refi</td>
+<td></td>
+<td>0</td>
+<td>homeWorkTestNG@1184ab05</td></tr>
+<tr>
+<td title='homeWorkTestNG.SetLoanType()'><b>SetLoanType</b><br>Test class: homeWorkTestNG<br>Test method: User Selecting Loan Type</td>
+<td></td>
+<td>0</td>
+<td>homeWorkTestNG@1184ab05</td></tr>
+<tr>
+<td title='homeWorkTestNG.SetDownPayment()'><b>SetDownPayment</b><br>Test class: homeWorkTestNG<br>Test method: User populating down payment</td>
+<td></td>
+<td>0</td>
+<td>homeWorkTestNG@1184ab05</td></tr>
+</table><p>
+</body>
+</html>
